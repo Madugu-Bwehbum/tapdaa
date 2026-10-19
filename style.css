@@ -1,0 +1,745 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(224, 243, 224);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-right: 9em;
+    margin-left: 9em;
+    padding: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 8px;
+    font-size: 2;
+}
+
+.nav-bar button {
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: bold;
+    font-size: 20px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(77, 75, 75);
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.nav-bar img {
+    width: 20px;
+    padding: 8px;
+    background-color: rgb(149, 248, 149);
+    border-radius: 3px;
+}
+
+.main {
+    display: flex;
+    gap: 23em;
+    margin-top: 5em;
+    margin-left: 12em;
+}
+
+.main img {
+    width: 35em;
+}
+
+.main {
+    margin-top: 7em;
+    padding-bottom: 3em;
+}
+
+.delight {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 18px;
+}
+
+.text {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-size: bold;
+    color: rgb(56, 55, 55);
+    padding-bottom: 30px;
+    padding-top: 18px;
+}
+
+.main button {
+    background-color: transparent;
+    color: black;
+    border: 2px solid;
+    padding: 6px;
+    width: 195px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.scrolling {
+    font-size: 25px;
+    color: rgb(67, 67, 67);
+}
+
+.hero {
+    display: flex;
+    gap: 34em;
+    padding-top: 5em;
+    margin-left: 12em;
+}
+
+section {
+
+    padding-bottom: 25px;
+
+
+}
+
+.hero img {
+    width: 24em;
+    height: 28em;
+    border-radius: 2em;
+}
+
+.nfc img {
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    background-color: rgb(159, 247, 159);
+}
+
+.hero h2 {
+    font-size: 50px;
+    font-family: Helvetica;
+    color: rgb(34, 33, 33);
+    padding-bottom: 18px;
+}
+
+.hero .text2 {
+    font-size: 24px;
+    font-family: Helvetica;
+    color: rgb(100, 98, 98);
+    padding-bottom: 15px;
+}
+
+.plus {
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 1px solid gainsboro;
+    font-weight: bold;
+
+}
+
+.hero .text3 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: rgb(14, 13, 13);
+}
+
+.container {
+    padding-top: 5em;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 45px;
+    font-weight: 100;
+    color: rgb(52, 52, 52);
+    padding-bottom: 18px;
+}
+
+.title p {
+    font-size: 22px;
+    color: rgb(37, 36, 36);
+}
+
+.NFC {
+    display: flex;
+    gap: 40px;
+    background-color: rgb(239, 237, 237);
+    align-items: center;
+    margin: auto;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 250px;
+    height: 30px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.NFC h2 {
+    background-color: black;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100px;
+}
+
+.NFC h3 {
+    padding-right: 20px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 28px;
+}
+
+.cards img {
+    width: 25em;
+    height: 23em;
+}
+
+.cards h2 {
+    text-align: left;
+    font-size: 35px;
+    font-weight: 100;
+    padding-bottom: 18px;
+    padding-top: 14px;
+    color: rgb(38, 38, 38);
+
+}
+
+.cards p {
+    text-align: left;
+    color: gray;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+.cards-p {
+    padding-bottom: 16px;
+
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-align: left;
+    padding-top: 16px;
+}
+
+.details a {
+    color: rgb(51, 51, 51);
+    text-align: left;
+
+
+}
+
+.details img {
+    width: 25px;
+    height: 35px;
+}
+
+.image img {
+    padding-top: 6em;
+    width: 80em;
+    height: 30em;
+    padding-left: 1em;
+    padding-bottom: 3em;
+}
+
+.Journey {
+    padding-bottom: 1em;
+}
+
+.container3 {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.container-text {
+    text-align: center;
+}
+
+.container-text h2 {
+    font-size: 45px;
+    font-weight: 100;
+    padding-bottom: 18px;
+    color: rgb(41, 40, 40);
+}
+
+.container-text p {
+    font-size: 20px;
+    color: rgb(44, 43, 43);
+    padding-bottom: 18px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.form input {
+    width: 40em;
+    height: 40px;
+    margin: 6px;
+    padding-left: 14px;
+    color: rgb(55, 54, 54);
+    background-color: rgb(244, 241, 241);
+    border: none;
+    outline: none;
+}
+
+.btn3 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.btn3 button {
+    width: 8em;
+    height: 3em;
+    border: 2px solid;
+
+}
+
+.process {
+    padding-top: 1em;
+    padding-bottom: 5em;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 4em;
+    padding-right: 4em;
+
+}
+
+.container4 h2 {
+    font-size: 48px;
+    font-weight: 100;
+    color: rgb(23, 23, 23);
+    padding-bottom: 18px;
+}
+
+.p-text {
+    font-size: 22px;
+    padding-bottom: 18px;
+    color: rgb(83, 82, 82);
+}
+
+.text4 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    color: rgb(21, 20, 20);
+}
+
+.plus1 {
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 1px solid gainsboro;
+    font-weight: bold;
+    color: gray;
+
+}
+
+.container4 img {
+    width: 30em;
+    border-radius: 10px;
+}
+
+.pricing {
+    background-color: aliceblue;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.price {
+    text-align: center;
+}
+
+.price h2 {
+    font-size: 48px;
+    font-weight: 60;
+    color: rgb(30, 29, 29);
+    padding-bottom: 18px;
+}
+
+.pricing p {
+    font-size: 22px;
+    color: rgb(48, 48, 48);
+    padding-bottom: 18px;
+}
+
+.price-menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    gap: 2em;
+}
+
+.menu1 {
+    background-color: rgb(114, 244, 244);
+    margin-bottom: 2em;
+    padding-top: 20px;
+    width: 25em;
+}
+
+.menu1 img {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu1 h2 {
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 18px;
+    font-size: 30px;
+    font-weight: 200;
+    padding-bottom: 30px;
+    color: rgb(46, 46, 46);
+}
+
+.side-p {
+    text-align: center;
+}
+
+.side-text {
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.side-text p {
+    text-align: left;
+    font-size: 18px;
+}
+
+.menu1 .p-money {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.menu1 .p-days {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.menu1 .per-month {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.order {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(45, 181, 181);
+}
+
+.menu2 img {
+    width: 45px;
+    height: 50px;
+}
+
+.menu3 img {
+    width: 45px;
+    height: 50px;
+}
+
+.menu3 {
+    background-color: rgb(245, 141, 245);
+    margin-bottom: 2em;
+    padding-top: 20px;
+    width: 25em;
+}
+
+.menu3 h2 {
+    text-align: center;
+    padding-top: 18px;
+    font: 55px;
+}
+
+.menu3 .menu-h2 {
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 18px;
+    font-size: 30px;
+    font-weight: 200;
+    padding-bottom: 30px;
+    color: rgb(46, 46, 46);
+}
+
+.menu3 .p-days3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.menu3 .p-money3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.menu3 .per-month3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu3 .side-text3 {
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.side-text3 p {
+    font-size: 18px;
+}
+
+.order3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(194, 106, 194);
+}
+
+
+.menu3 img {
+    padding-left: 30px;
+}
+
+.menu2 img {
+    padding-left: 30px;
+}
+
+.menu2 {
+    background-color: rgb(147, 244, 147);
+    margin-bottom: 2em;
+    padding-top: 20px;
+    width: 25em;
+}
+
+.menu2 h2 {
+    text-align: center;
+    padding-top: 18px;
+    font: 55px;
+}
+
+.menu2 .menu-h {
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 18px;
+    font-size: 30px;
+    font-weight: 200;
+    padding-bottom: 30px;
+    color: rgb(46, 46, 46);
+}
+
+.menu2 .p-days2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.menu2 .p-money2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.menu2 .per-month2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu2 .side-text2 {
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.side-text2 p {
+    font-size: 18px;
+}
+
+.order2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(121, 211, 121);
+}
+
+.menu-text p {
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+}
+
+.footer {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: antiquewhit;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20em;
+}
+
+.footer-menu h2 {
+    font-size: 48px;
+    font-weight: 100;
+    color: rgb(34, 33, 33);
+}
+
+.footer-text {
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.footer-menu .text5 {
+    font-size: 22px;
+    margin-bottom: 18px;
+    color: rgb(21, 20, 20);
+
+}
+
+.footer-text span {
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 1px solid gainsboro;
+    font-weight: bold;
+    color: gray;
+}
+
+.tapdaa-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 48em;
+    padding-top: 3em;
+
+}
+
+.tapdaa-logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.tapdaa-logo h3 {
+    font-size: 28px;
+    color: rgb(57, 56, 56);
+    font-weight: 100;
+}
+
+.tapdaa-logo img {
+    width: 20px;
+    padding: 8px;
+    background-color: rgb(149, 248, 149);
+    border-radius: 3px;
+}
+
+.tapdaa-links {
+    display: flex;
+    gap: 10px;
+}
+
+.tapdaa-links a {
+    color: gray;
+    text-decoration: none;
+}
+
+.tapdaa-links a:hover {
+    cursor: pointer;
+    transition: red;
+}
+
+.landingfolio {
+    display: flex;
+    align-items: center;
+}
+
+.landingfolio h2 {
+    font-size: 28px;
+    padding-top: 28px;
+}
+
+.landingfolio .folio {
+    font-size: 20px;
+    color: rgb(4, 0, 0);
+    font-weight: bold;
+}
+
+.landingfolio img {
+    width: 35px;
+    height: 35px;
+    text-align: left;
+}
+
+.last-sec {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgb(243, 240, 240);
+}
+
+.sec-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+} */
+.sec-footer h2 {
+    padding-bottom: 18px;
+    font-size: 32px;
+    color: rgb(65, 63, 63);
+    font-weight: 50;
+}
+
+.sec-footer p {
+    padding-bottom: 14px;
+    font-size: 22px;
+    color: rgb(48, 48, 48);
+}
+
+.landing-page a {
+    text-decoration: none;
+    color: rgb(81, 79, 79);
+}
